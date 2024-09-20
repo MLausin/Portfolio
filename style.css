@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background: #fcfcfc;
+    color: black;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 3rem 9%;
+    background: rgba(43, 38, 38, 0.7);
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+span{
+    color:grey;
+}
+
+.navbar a{
+    font-size: 1.8rem;
+    color: rgb(228, 230, 233);
+    margin-left: 4rem;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #f5f5f5;
+    border-bottom: 3px solid#15a9ff;
+}
+
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 10rem;
+}
+
+.home{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 8rem;
+    position: relative;
+    top: 400px;
+}
+
+.stuss{
+    float: right;
+    width: 400px;
+    position: relative;
+    left: 900px;
+    bottom: 450px;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    display: flex;
+}
+
+.home-content h3{
+    font-size: 5.2rem;
+    font-weight: 700;
+}
+
+.home-content h1{
+    font-size: 10rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+
+.home-content p{
+    font-size: 2.8rem;
+    font-weight: 500;
+    max-width: 650px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    background: hsl(0, 0%, 62%);
+
+}
+
+.heading{
+    text-align: center;
+    font-size: 8rem;
+}
+
+.about-content h2{
+    text-align: center;
+    line-height: 1.5;
+}
+
+.about-content p{
+    font-size: 2.6rem;
+    margin: 2rem 0 3rem ;
+}
+
+.project-section{
+    min-height: 100vh;
+    padding: 100px 15px;
+    background: rgb(172, 171, 171);
+}
+
+.project-section h2{
+    margin-bottom: 5rem;
+}
+
+.project-section p{
+    font-size: 2.5rem;
+    margin: 7rem 0 3rem;
+    
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    background: hsl(0, 0%, 62%);
+}
+
+.contact h2{
+    margin-bottom: 3rem;
+}
+
+.contact-content p{
+    font-size: 2.6rem;
+    margin: 2.6rem 0 3rem ;
+    border: 2px solid black;
+    padding: 2.6rem 2rem 3rem;
+}
+.box{
+    float: left;
+    width: 50%;
+}
